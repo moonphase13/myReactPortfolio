@@ -1,10 +1,10 @@
 import './App.css';
-import BucketList from './components/BucketList';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
-    <div className="bucket-app">
-      <BucketList />
+    <div className="Portfolio">
+      <Portfolio />
     </div>
   );
 }
