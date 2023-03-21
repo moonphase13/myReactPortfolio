@@ -1,28 +1,19 @@
-import React, { useState } from 'react';
 
-function Navigation () {
-  const [nav] = useState({
-    mainHeader: "Welcome to my portfolio",
-    subHeading: "This is what I've been working on recently.",
-    text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-  });
+export default function Navigation () {
   return (
-    <ul>
-      <li>
-        <a href="#about">About</a>
+    <ul className='flex flex-row'>
+      <li className='navLiItm'>
+        <a href="/">About Me</a>
       </li>
-      <li>
-        <a href="#projects">Projects</a>
+      <li className='navLiItm'>
+        <a href="/">Projects</a>
       </li>
-      <li>
-        <a href="#contact">Contact Me</a>
+      <li className='navLiItm'>
+        <a href="/">Contact Me</a>
       </li>
-      <li>
-        <a href="#resume">Resume</a>
+      <li className='navLiItm'>
+        <a href="/">Resume</a>
       </li>
     </ul>
   );
-}; 
-
-export default Navigation;
+};
