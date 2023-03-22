@@ -31,20 +31,20 @@ You can change the order, add avatar or image, change text bar sizes, etc.
 - change sass variables if you need so:
 
 ```scss
-$ph-direction:            ltr !default;
-$ph-bg:                   #fff !default;
-$ph-color:                #ced4da !default;
-$ph-border:               1px solid darken($ph-bg, 10%) !default;
-$ph-border-radius:        2px !default;
+$ph-direction: ltr !default;
+$ph-bg: #fff !default;
+$ph-color: #ced4da !default;
+$ph-border: 1px solid darken($ph-bg, 10%) !default;
+$ph-border-radius: 2px !default;
 
-$ph-cols:                 12 !default;
-$ph-cols-remove-odd:      true !default;
-$ph-gutter:               30px !default;
-$ph-spacer:               15px !default;
+$ph-cols: 12 !default;
+$ph-cols-remove-odd: true !default;
+$ph-gutter: 30px !default;
+$ph-spacer: 15px !default;
 
 $ph-avatar-border-radius: 50% !default;
 
-$ph-animation-duration:   0.8s !default;
+$ph-animation-duration: 0.8s !default;
 ```
 
 ### Via bower
@@ -58,7 +58,10 @@ Just replace npm with bower: `bower install placeholder-loading --save`
 
 ```html
 <head>
-    <link rel="stylesheet" href="https://unpkg.com/placeholder-loading/dist/css/placeholder-loading.min.css">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/placeholder-loading/dist/css/placeholder-loading.min.css"
+  />
 </head>
 ```
 
@@ -68,19 +71,19 @@ A simple html markup would be something like this:
 
 ```html
 <div class="ph-item">
-    <div class="ph-col-12">
-        <div class="ph-picture"></div>
-        <div class="ph-row">
-            <div class="ph-col-6 big"></div>
-            <div class="ph-col-4 empty big"></div>
-            <div class="ph-col-2 big"></div>
-            <div class="ph-col-4"></div>
-            <div class="ph-col-8 empty"></div>
-            <div class="ph-col-6"></div>
-            <div class="ph-col-6 empty"></div>
-            <div class="ph-col-12"></div>
-        </div>
+  <div class="ph-col-12">
+    <div class="ph-picture"></div>
+    <div class="ph-row">
+      <div class="ph-col-6 big"></div>
+      <div class="ph-col-4 empty big"></div>
+      <div class="ph-col-2 big"></div>
+      <div class="ph-col-4"></div>
+      <div class="ph-col-8 empty"></div>
+      <div class="ph-col-6"></div>
+      <div class="ph-col-6 empty"></div>
+      <div class="ph-col-12"></div>
     </div>
+  </div>
 </div>
 ```
 
@@ -111,7 +114,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-- **Catalin Zalog** - *Initial work* - [zalog.ro](http://zalog.ro/)
+- **Catalin Zalog** - _Initial work_ - [zalog.ro](http://zalog.ro/)
 
 See also the list of [contributors](https://github.com/zalog/placeholder-loading/contributors) who participated in this project.
 

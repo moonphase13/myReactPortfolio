@@ -18,8 +18,25 @@ body {
 
 h1 {
   font-family: 'Major Mono Display', monospace;
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.5rem; /* 40px */
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 1.5rem; /* 24px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: bold;
+  margin: 1rem 0;
+  text-align: center;
 }
 
 .navLiItm {
   margin: 0 1em;
+}
+
+.navLiItm a.active {
+  color: red;
+  font-weight: bold;
 }
