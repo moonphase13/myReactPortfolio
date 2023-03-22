@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Header from './Header';
 import Footer from './Footer';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
@@ -20,44 +21,11 @@ function Portfolio() {
 
   return (
     <div>
-      <header className="flex flex-row justify-between p-4">
-        <h1 onClick={(event) => handleNavItemClick('secret', event)}>{header.name}</h1>
-        <nav className="self-center">
-          <ul className="flex flex-row">
-            <li className="navLiItm">
-              <a
-                href="/"
-                className={activeSection === 'aboutMe' ? 'active' : ''}
-                onClick={(event) => handleNavItemClick('aboutMe', event)}
-              >
-                About Me
-              </a>
-            </li>
-            <li className="navLiItm">
-              <a
-                href="/"
-                className={activeSection === 'projects' ? 'active' : ''}
-                onClick={(event) => handleNavItemClick('projects', event)}
-              >Portfolio
-              </a>
-            </li>
-            <li className="navLiItm">
-              <a 
-                href="/" 
-                className={activeSection === 'contactMe' ? 'active' : ''} 
-                onClick={(event) => handleNavItemClick('contactMe', event)}
-              >Contact Me</a>
-            </li>
-            <li className="navLiItm">
-              <a 
-                href="/"
-                className={activeSection === 'resume' ? 'active' : ''}
-                onClick={(event) => handleNavItemClick('resume', event)}
-              >Resume</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <Header
+        header={header}
+        activeSection={activeSection}
+        handleNavItemClick={handleNavItemClick}
+      />
       <main className="main my-20">
         {activeSection === 'aboutMe' && <AboutMe />}
         {activeSection === 'projects' && <Projects />}

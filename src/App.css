@@ -18,7 +18,6 @@ body {
 
 h1 {
   font-family: 'Major Mono Display', monospace;
-  font-size: 2.25rem; /* 36px */
   line-height: 2.5rem; /* 40px */
   font-weight: bold;
 }

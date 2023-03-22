@@ -13,7 +13,7 @@ function Footer() {
 
   return (
     <footer className="footer">
-      <ul className="flex flex-row justify-center">
+      <ul className="flex flex-row justify-center lg:justify-evenly">
         <li className="footerLiItm">
           <a href={footer.link1}>
             <svg

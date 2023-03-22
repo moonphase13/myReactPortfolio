@@ -10,7 +10,7 @@ export default function LandingPage() {
   }
   return (
     <div className="flex justify-center m-10">
-      <iframe src="https://funhtml5games.com?embed=2048bit" style={style} frameborder="0"></iframe>
+      <iframe src="https://funhtml5games.com?embed=2048bit" style={style} frameborder="0" title='2048'></iframe>
     </div>
   );
 }

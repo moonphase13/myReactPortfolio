@@ -8,9 +8,9 @@ function AboutMe() {
   });
   return (
     <div className="flex flex-col justify-center items-center">
-      <h1 className="text-4xl font-bold">About Me</h1>
-      <div id='profilePic' className='w-60 self-start'>
-        <img src={aboutMe.imgUrl} alt="about me img" className='border-bk rounded-full mx-10'/>
+      <h1 className="text-3xl lg:text-4xl font-bold">About Me</h1>
+      <div id='profilePic' className='w-60 self-center lg:self-start origin-center'>
+        <img src={aboutMe.imgUrl} alt="about me img" className='border-bk rounded-full lg:mx-10 my-10'/>
       </div>
       <p className="p-10">{aboutMe.txt}</p>
     </div>
