@@ -53,17 +53,19 @@ function Projects () {
   ]);
 
   return (
-    <div className="flex flex-col justify-center items-center">
-      <h2 className="text-4xl font-bold">Projects</h2>
+    <div className="flex flex-col justify-center items-center z-10 animate-[bounce_1.1s_1.49]">
+      <h2 className="text-4xl font-bold mb-5">Projects</h2>
       <div className="flex flex-row flex-wrap justify-center items-center">
         {projects.map((project) => (
-          <div key={project.id} className="relative m-4 w-1/3 text-black group">
-            <div className='opacity-100 group-hover:opacity-50 transition-opacity duration-500 ease-in-out'>
-              <img src={project.image} alt={project.name}/>
+          <div key={project.id} className="relative m-4 w-1/3 text-white group">
+            <div className='opacity-100 group-hover:opacity-25 transition-opacity duration-500 ease-in-out'>
+              <img src={project.image} alt={project.name} className='border-transparent rounded-lg'/>
             </div>
-            <div className="projectText absolute top-0 left-0 z-10 w-full h-full grid grid-cols-5 grid-rows-2 justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-500 ease-in-out">
-              <a href={project.deployedLink} className='col-span-3'target='_blank' rel='noopener noreferrer'><h3 className="text-2xl font-bold">{project.name}</h3></a>
-              <p className="p-10 row-start-2 col-span-5">{project.description}</p>
+            <div className="projectText absolute top-0 left-0 z-10 w-full h-full grid grid-cols-5 grid-rows-2 justify-center items-center opacity-25 hover:opacity-100 transition-opacity duration-500 ease-in-out">
+              <a href={project.deployedLink} className='col-start-2 col-span-3'target='_blank' rel='noopener noreferrer'>
+                <h3 className="text-2xl font-bold">{project.name}</h3>
+              </a>
+              <p className="row-start-2 col-start-2 col-span-5">{project.description}</p>
               <a href={project.githubLink} className='col-start-5' target='_blank' rel='noopener noreferrer'>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +76,7 @@ function Projects () {
                   viewBox="0,0,256,256"
                 >
                   <g
-                    fill="#000"
+                    fill="#fff"
                     fill-rule="nonzero"
                     stroke="none"
                     stroke-width="1"

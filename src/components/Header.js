@@ -8,7 +8,7 @@ function Header({ header, activeSection, handleNavItemClick }) {
   }
 
   return (
-    <header className="flex flex-col lg:flex-row lg:justify-between p-4">
+    <header className="flex flex-col lg:flex-row lg:justify-between p-4 z-40">
       <h1 
         className="text-4xl lg:text-5xl self-center"
         onClick={(event) => handleNavItemClick('secret', event)}

@@ -13,8 +13,8 @@ function ContactMe() {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center">
-      <h1 className="text-4xl font-bold">Contact Me</h1>
+    <div className="flex flex-col justify-center items-center z-10 animate-[bounce_1.1s_1.49]">
+      <h1 className="text-4xl font-bold mb-5">Contact Me</h1>
       <form className="flex flex-col justify-center items-center" onSubmit={handleFormSubmit}>
         <label htmlFor="name">Name</label>
         <input

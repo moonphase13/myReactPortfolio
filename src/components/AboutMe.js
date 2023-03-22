@@ -7,8 +7,8 @@ function AboutMe() {
     imgUrl: 'https://i.imgur.com/hLopcMA.jpeg'
   });
   return (
-    <div className="flex flex-col justify-center items-center">
-      <h1 className="text-3xl lg:text-4xl font-bold">About Me</h1>
+    <div className="flex flex-col justify-center items-center z-10 animate-[bounce_1.1s_1.49]">
+      <h2 className="text-3xl lg:text-4xl font-bold mb-5">About Me</h2>
       <div id='profilePic' className='w-60 self-center lg:self-start origin-center'>
         <img src={aboutMe.imgUrl} alt="about me img" className='border-bk rounded-full lg:mx-10 my-10'/>
       </div>
