@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import Footer from './Footer';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
-import LandingPage from './LandingPage';
+import Secret from './Secret';
 
 function Portfolio() {
   const [header] = useState({
     name: 'Michael Frayne',
   });
 
-  const [activeSection, setActiveSection] = useState('landingPage');
+  const [activeSection, setActiveSection] = useState('aboutMe');
 
   const handleNavItemClick = (section, event) => {
     event.preventDefault();
@@ -19,7 +19,7 @@ function Portfolio() {
   return (
     <div>
       <header className="flex flex-row justify-between p-4">
-        <a href='/' className='no-underline'><h1>{header.name}</h1></a>
+        <h1 onClick={(event) => handleNavItemClick('secret', event)}>{header.name}</h1>
         <nav className="self-center">
           <ul className="flex flex-row">
             <li className="navLiItm">
@@ -48,10 +48,10 @@ function Portfolio() {
           </ul>
         </nav>
       </header>
-      <main className="main">
+      <main className="main my-20">
         {activeSection === 'aboutMe' && <AboutMe />}
         {activeSection === 'projects' && <Projects />}
-        {activeSection === 'landingPage' && <LandingPage />}
+        {activeSection === 'secret' && <Secret />}
       </main>
       <footer className="footer">
         <Footer />
