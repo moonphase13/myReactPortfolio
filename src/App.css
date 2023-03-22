@@ -32,6 +32,10 @@ h2 {
   text-align: center;
 }
 
+li {
+  list-style: inside;
+}
+
 .navLiItm {
   margin: 0 1em;
 }
@@ -39,4 +43,9 @@ h2 {
 .navLiItm a.active {
   color: #A1A2A9;
   font-weight: bold;
+}
+
+header li,
+footer li {
+  list-style: none;
 }

@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Footer from './Footer';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
+import ContactMe from './ContactMe';
+import Resume from './Resume';
 import Secret from './Secret';
 
 function Portfolio() {
@@ -40,10 +42,18 @@ function Portfolio() {
               </a>
             </li>
             <li className="navLiItm">
-              <a href="/">Contact Me</a>
+              <a 
+                href="/" 
+                className={activeSection === 'contactMe' ? 'active' : ''} 
+                onClick={(event) => handleNavItemClick('contactMe', event)}
+              >Contact Me</a>
             </li>
             <li className="navLiItm">
-              <a href="/">Resume</a>
+              <a 
+                href="/"
+                className={activeSection === 'resume' ? 'active' : ''}
+                onClick={(event) => handleNavItemClick('resume', event)}
+              >Resume</a>
             </li>
           </ul>
         </nav>
@@ -51,6 +61,8 @@ function Portfolio() {
       <main className="main my-20">
         {activeSection === 'aboutMe' && <AboutMe />}
         {activeSection === 'projects' && <Projects />}
+        {activeSection === 'contactMe' && <ContactMe />}
+        {activeSection === 'resume' && <Resume />}
         {activeSection === 'secret' && <Secret />}
       </main>
       <footer className="footer">
