@@ -7,13 +7,9 @@ function Footer() {
     link3: 'https://twitter.com/Moonlight__1357',
   });
 
-  const fill = {
-    fill: '#000000',
-  };
-
   return (
     <footer className="footer">
-      <ul className="flex flex-row justify-center lg:justify-evenly">
+      <ul className="flex flex-row justify-center lg:justify-evenly m-5">
         <li className="footerLiItm">
           <a href={footer.link1}>
             <svg
@@ -23,7 +19,6 @@ function Footer() {
               width="96"
               height="96"
               viewBox="0,0,256,256"
-              style={fill}
             >
               <g
                 fill="#ffffff"
@@ -57,7 +52,6 @@ function Footer() {
               width="96"
               height="96"
               viewBox="0,0,256,256"
-              style={fill}
             >
               <g
                 fill="#ffffff"
@@ -90,7 +84,6 @@ function Footer() {
               width="96"
               height="96"
               viewBox="0,0,256,256"
-              style={fill}
             >
               <g
                 fill="#ffffff"

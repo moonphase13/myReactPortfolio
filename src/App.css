@@ -48,3 +48,7 @@ header li,
 footer li {
   list-style: none;
 }
+
+.projectText::hover {
+  display: flex;
+}
