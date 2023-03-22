@@ -1,0 +1,4 @@
+/node_modules
+/node_modules/hammerjs/hammer.min.js
+/package-lock.json
+/_md

@@ -19,7 +19,7 @@ function Portfolio() {
   return (
     <div>
       <header className="flex flex-row justify-between p-4">
-        <h1>{header.name}</h1>
+        <a href='/' className='no-underline'><h1>{header.name}</h1></a>
         <nav className="self-center">
           <ul className="flex flex-row">
             <li className="navLiItm">
@@ -36,8 +36,7 @@ function Portfolio() {
                 href="/"
                 className={activeSection === 'projects' ? 'active' : ''}
                 onClick={(event) => handleNavItemClick('projects', event)}
-              >
-                Projects
+              >Portfolio
               </a>
             </li>
             <li className="navLiItm">
