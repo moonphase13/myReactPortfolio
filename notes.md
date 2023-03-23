@@ -2,7 +2,7 @@
 
 **`TODO:`** add shadows to main headers and active nav
 
-**`TODO:`** change main headers to `lg:justify-start` `justify-center`
+**`TODO:`** change main headers to `lg:justify-start` and `justify-center`
 
 **`TODO:`** adjust spacing on contactMe section
 
