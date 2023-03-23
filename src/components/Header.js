@@ -8,9 +8,9 @@ function Header({ header, activeSection, handleNavItemClick }) {
   }
 
   return (
-    <header className="flex flex-col lg:flex-row lg:justify-between p-4 z-10">
+    <header className="flex flex-col lg:flex-row lg:justify-between p-6 z-10">
       <h1 
-        className="text-4xl lg:text-5xl self-center"
+        className="text-4xl lg:text-7xl self-center"
         onClick={(event) => handleNavItemClick('secret', event)}
       >{header.name}</h1>
       <button
@@ -26,7 +26,7 @@ function Header({ header, activeSection, handleNavItemClick }) {
           )}
         </svg>
       </button>
-      <nav className={`${isMenuOpen ? 'block' : 'hidden'} lg:block self-center`}>
+      <nav className={`${isMenuOpen ? 'block' : 'hidden'} lg:block self-center text-lg`}>
         <ul className="flex flex-col lg:flex-row">
           <li className="navLiItm mt-2 lg:mt-0">
             <a

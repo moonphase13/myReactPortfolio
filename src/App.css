@@ -16,6 +16,11 @@ body {
   color: #fff;
 }
 
+header {
+  background-image: url('https://i.imgur.com/au0F8qJ.jpg');
+  background-size: cover;
+}
+
 h1 {
   font-family: 'Major Mono Display', monospace;
   line-height: 2.5rem; /* 40px */
@@ -40,7 +45,7 @@ li {
 }
 
 .navLiItm a.active {
-  color: #919191;
+  color: #7700ff;
   font-weight: bold;
 }
 
