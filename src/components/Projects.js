@@ -53,7 +53,7 @@ function Projects () {
   ]);
 
   return (
-    <div className="flex flex-col justify-center items-center z-10 animate-[bounce_1.1s_1.49]">
+    <div className="flex flex-col justify-center items-center z-0">
       <h2 className="text-4xl font-bold mb-5">Projects</h2>
       <div className="flex flex-row flex-wrap justify-center items-center">
         {projects.map((project) => (

@@ -32,7 +32,7 @@ function Resume() {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center z-10 animate-[bounce_1s_1.49]">
+    <div className="flex flex-col justify-center items-center z-0">
       <h2 className="text-4xl font-bold mb-5">Resume</h2>
       <div className="flex flex-col justify-center items-center">
         <div id='resumeIcon'>
