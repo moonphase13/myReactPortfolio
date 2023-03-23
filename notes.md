@@ -22,7 +22,6 @@
 
 **`TODO:`** fix mobile compatibility with cards
 
-**`TODO:`** make custom `favicon.io`
 
 **`TODO:`** add personal projects into projects section
 
