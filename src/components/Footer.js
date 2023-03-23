@@ -9,8 +9,8 @@ function Footer() {
 
   return (
     <footer className="footer">
-      <ul className="flex flex-row justify-center lg:justify-evenly m-5">
-        <li className="footerLiItm">
+      <ul className="flex flex-row justify-center m-5">
+        <li className="footerLiItm hover:opacity-25 transition-opacity duration-500 ease-in-out">
           <a href={footer.link1}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ function Footer() {
             </svg>
           </a>
         </li>
-        <li className="footerLiItm">
+        <li className="footerLiItm hover:opacity-25 transition-opacity duration-500 ease-in-out">
           <a href={footer.link2}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ function Footer() {
             </svg>
           </a>
         </li>
-        <li className="footerLiItm">
+        <li className="footerLiItm hover:opacity-25 transition-opacity duration-500 ease-in-out">
           <a href={footer.link3}>
             <svg
               xmlns="http://www.w3.org/2000/svg"

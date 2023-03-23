@@ -2,10 +2,6 @@
 
 **`TODO:`** add shadows to main headers and active nav
 
-**`TODO:`** change footer link opacity on hover
-
-**`TODO:`** adjust footer remove the space-evenly and do space-around
-
 **`TODO:`** change main headers to `lg:justify-start` `justify-center`
 
 **`TODO:`** adjust spacing on contactMe section
