@@ -39,6 +39,7 @@ h2 {
 
 li {
   list-style: inside;
+  list-style-type: circle;
 }
 
 .navLiItm {
