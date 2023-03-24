@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "gh-pages": "^5.0.0",
     "hammerjs": "^2.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -16,6 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,5 +44,16 @@
   },
   "devDependencies": {
     "prettier": "^2.8.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moonphase13/my_pmyReactPortfolioackage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moonphase13/myReactPortfolio/issues"
+  },
+  "homepage": "https://github.com/moonphase13/myReactPortfolio"
 }
