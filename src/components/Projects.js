@@ -63,7 +63,7 @@ function Projects () {
         {projects.map((project) => (
           <div key={project.id} className="projCard relative m-4 w-1/3 text-white group">
             <div className='opacity-100 group-hover:opacity-25 transition duration-500 ease-in-out'>
-              <img src={project.image} alt={project.name} className='imgCard border-transparent rounded-lg'/>
+              <img src={project.image} alt={project.name} className='imgCard border-transparent rounded-lg h-80'/>
             </div>
             <div className="projectText absolute top-0 left-0 px-16 z-10 w-full h-full flex flex-col justify-center items-center group hover:opacity-100 transition duration-500 ease-in-out">
               <div className='w-full flex flex-row justify-start'>
