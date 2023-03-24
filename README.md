@@ -1,123 +1,74 @@
-# Placeholder loading
+# 14 Model-View-Controller (MVC): Tech Blog
 
-Simple and flexible, css only, content placeholder loading animation.
+## Badges 📛
+[![](https://img.shields.io/static/v1?label=License&message=MIT+License&color=blueviolet)](#licence)
 
-## Demo
+## [Links](#faq) 🔗
+<br>
 
-<https://zalog.github.io/placeholder-loading/>
+## Description 📝
 
-Take a look at this examples, but keep in mind that it's flexible enough to play with elements as you need.
-
-You can change the order, add avatar or image, change text bar sizes, etc.
-
-<p align="center">
-    <img src="docs/imgs/placeholder-loading-demo-1.gif">
-</p>
-
-<p align="center">
-    <img src="docs/imgs/placeholder-loading-demo-2.gif">
-</p>
-
-<p align="center">
-    <img src="docs/imgs/placeholder-loading-demo-3.gif">
-</p>
-
-## Installing
-
-### Via npm
-
-- `npm install placeholder-loading --save`
-- `@import "~/node_modules/placeholder-loading/src/scss/placeholder-loading";` - please modify the path accordingly
-- change sass variables if you need so:
-
-```scss
-$ph-direction: ltr !default;
-$ph-bg: #fff !default;
-$ph-color: #ced4da !default;
-$ph-border: 1px solid darken($ph-bg, 10%) !default;
-$ph-border-radius: 2px !default;
-
-$ph-cols: 12 !default;
-$ph-cols-remove-odd: true !default;
-$ph-gutter: 30px !default;
-$ph-spacer: 15px !default;
-
-$ph-avatar-border-radius: 50% !default;
-
-$ph-animation-duration: 0.8s !default;
+```md
+This was a fun assignment, I am super excited to rebuild this with the backend for the contact me form
 ```
 
-### Via bower
+## User Story 📘
 
-Just replace npm with bower: `bower install placeholder-loading --save`
-
-### Via cdn
-
-- <https://unpkg.com/placeholder-loading/dist/css/placeholder-loading.min.css>
-- or <https://cdn.jsdelivr.net/npm/placeholder-loading/dist/css/placeholder-loading.min.css>
-
-```html
-<head>
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/placeholder-loading/dist/css/placeholder-loading.min.css"
-  />
-</head>
+```md
+AS AN employer looking for candidates with experience building single-page applications
+I WANT to view a potential employee's deployed React portfolio of work samples
+SO THAT I can assess whether they're a good candidate for an open position
 ```
 
-## Usage
+## Acceptance Criteria ✅
 
-A simple html markup would be something like this:
-
-```html
-<div class="ph-item">
-  <div class="ph-col-12">
-    <div class="ph-picture"></div>
-    <div class="ph-row">
-      <div class="ph-col-6 big"></div>
-      <div class="ph-col-4 empty big"></div>
-      <div class="ph-col-2 big"></div>
-      <div class="ph-col-4"></div>
-      <div class="ph-col-8 empty"></div>
-      <div class="ph-col-6"></div>
-      <div class="ph-col-6 empty"></div>
-      <div class="ph-col-12"></div>
-    </div>
-  </div>
-</div>
+```md
+GIVEN a single-page application portfolio for a web developer
+WHEN I load the portfolio
+THEN I am presented with a page containing a header, a section for content, and a footer
+WHEN I view the header
+THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
+WHEN I view the navigation titles
+THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+WHEN I click on a navigation title
+THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+WHEN I load the portfolio the first time
+THEN the About Me title and section are selected by default
+WHEN I am presented with the About Me section
+THEN I see a recent photo or avatar of the developer and a short bio about them
+WHEN I am presented with the Portfolio section
+THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
+WHEN I am presented with the Contact section
+THEN I see a contact form with fields for a name, an email address, and a message
+WHEN I move my cursor out of one of the form fields without entering text
+THEN I receive a notification that this field is required
+WHEN I enter text into the email address field
+THEN I receive a notification if I have entered an invalid email address
+WHEN I am presented with the Resume section
+THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+WHEN I view the footer
+THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
+<a id='licence'></a>
 
-- grid classes: `.ph-col-2`, `.ph-col-4`, `.ph-col-6`, `.ph-col-8`, `.ph-col-10`, `.ph-col-12`
+## Media
+<img src='' alt='screenshot'>
 
-- elements inside: `.ph-avatar` and `.ph-picture`
+## Licence 	🔑
 
-- use `.big` for bigger text line
 
-## Built With
+> This project is protected by a MIT license.
+>
+> THE SOFTWARE IS PROVIDED "AS IS". IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-- [SASS](http://sass-lang.com/)
-- [Node.js](https://nodejs.org/)
-- [Gulp](https://gulpjs.com/)
-- [postcss](https://github.com/postcss/postcss)
-- [autoprefixer](https://github.com/postcss/autoprefixer)
-- [cssnano](https://github.com/ben-eb/cssnano)
-- [browser-sync](https://www.browsersync.io/)
-- [Visual Studio Code](https://code.visualstudio.com/)
+<br>
 
-## Contributing
+<a id='faq'></a>
+## FAQ 	❓
 
-Please read Angular's [CONTRIBUTING.md](https://github.com/angular/angular/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/zalog/placeholder-loading/tags).
-
-## Authors
-
-- **Catalin Zalog** - _Initial work_ - [zalog.ro](http://zalog.ro/)
-
-See also the list of [contributors](https://github.com/zalog/placeholder-loading/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+* What is the Repo link?
+  * <a href='https://github.com/moonphase13/myReactPortfolio' target='_blank'>***Repo***</a>
+* What is the Deployed link?
+  * <a href='' target='_blank'>***Deployment***</a>
+* What is your Github link?
+  * <a href='https://github.com/moonphase13' target='_blank'>***Github***</a>
