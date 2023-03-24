@@ -65,3 +65,7 @@ footer li {
 .projectText::hover {
   display: flex;
 }
+
+[data-darkreader-inline-fill] {
+  fill: #fff !important;
+}

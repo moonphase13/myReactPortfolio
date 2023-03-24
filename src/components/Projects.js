@@ -4,53 +4,57 @@ function Projects () {
   const [projects] = useState([
     {
       id: 1,
-      name: 'Project 1',
-      description: 'This is project 1',
-      deployedLink: 'https://google.com',
-      githubLink: 'https://github.com',
-      image: 'https://picsum.photos/1280/960?random=1',
+      name: 'My Tech Blog',
+      description: 'My CMS-style blog site',
+      deployedLink: 'https://my-tech-blog-c14.herokuapp.com',
+      githubLink: 'https://github.com/moonphase13/myTechBlog',
+      image: 'https://i.imgur.com/s4DSOHj.png',
     },
     {
       id: 2,
-      name: 'Project 2',
-      description: 'This is project 2',
-      deployedLink: 'https://google.com',
-      githubLink: 'https://github.com',
-      image: 'https://picsum.photos/1280/960?random=2&nocache=1',
+      name: 'My Own Text Editor',
+      description: 'A full PWA text editor',
+      deployedLink: 'https://my-own-text-editor.herokuapp.com',
+      githubLink: 'https://github.com/moonphase13/myTextEditor',
+      image: 'https://i.imgur.com/itfeCmN.png',
     },
     {
       id: 3,
-      name: 'Project 3',
-      description: 'This is project 3',
-      deployedLink: 'https://google.com',
-      githubLink: 'https://github.com',
-      image: 'https://picsum.photos/1280/960?random=3&nocache=1',
+      name: 'Tune In',
+      description: 'An easy efficient radio browser',
+      deployedLink: 'https://moonphase13.github.io/Project-Tune-in-Team-5/',
+      githubLink: 'https://github.com/moonphase13/Project-Tune-in-Team-5',
+      image: 'https://i.imgur.com/3nqP4KQ.png',
     },
     {
       id: 4,
-      name: 'Project 4',
-      description: 'This is project 4',
-      deployedLink: 'https://google.com',
-      githubLink: 'https://github.com',
-      image: 'https://picsum.photos/1280/960?random=4&nocache=1',
+      name: 'CSS Snippet Cheatsheet',
+      description: 'This is a cheatsheet for CSS snippets',
+      deployedLink: 'https://moonphase13.github.io/CSS-Snippet-Cheatsheet/',
+      githubLink: 'https://github.com/moonphase13/CSS-Snippet-Cheatsheet',
+      image: 'https://i.imgur.com/uUwl32Q.png',
     },
     {
       id: 5,
-      name: 'Project 5',
-      description: 'This is project 5',
-      deployedLink: 'https://google.com',
-      githubLink: 'https://github.com',
-      image: 'https://picsum.photos/1280/960?random=5&nocache=1',
+      name: 'Portfolio Demo',
+      description: 'This is the first version of my portfolio from the bootcamp',
+      deployedLink: 'https://moonphase13.github.io/portfolio-demo-C2/',
+      githubLink: 'https://github.com/moonphase13/portfolio-demo-C2',
+      image: 'https://i.imgur.com/6jKcYye.png',
     },
     {
       id: 6,
-      name: 'Project 6',
-      description: 'This is project 6',
+      name: 'My Career',
+      description: 'goals? this was my project 2 in the bootcamp',
       deployedLink: 'https://google.com',
       githubLink: 'https://github.com',
-      image: 'https://picsum.photos/1280/960?random=6&nocache=1',
+      image: 'https://i.imgur.com/1TA2xfT.png',
     },
   ]);
+
+  const style = {
+    fill: '#fff'
+  };
 
   return (
     <div className="flex flex-col justify-center items-center z-0">
@@ -74,6 +78,7 @@ function Projects () {
                     width="48px"
                     height="48px"
                     viewBox="0,0,256,256"
+                    style={style}
                   >
                     <g
                       fill="#fff"
