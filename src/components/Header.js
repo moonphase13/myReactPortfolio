@@ -8,9 +8,9 @@ function Header({ header, activeSection, handleNavItemClick }) {
   }
 
   return (
-    <header className="flex flex-col lg:flex-row lg:justify-between p-6 z-10">
+    <header className="flex flex-col lg:flex-row lg:justify-between self-center p-6 z-10">
       <h1 
-        className="font-bold text-4xl md:text-6xl lg:text-7xl lg:text-start md:text-center sm:text-center"
+        className="flex w-max font-bold text-4xl md:text-6xl lg:text-7xl self-center"
         onClick={(event) => handleNavItemClick('secret', event)}
       >{header.name}</h1>
       <button

@@ -15,14 +15,15 @@ function ContactMe() {
   return (
     <div className="flex flex-col justify-center items-center z-0">
       <h2 className="text-4xl lg:text-5xl font-bold mb-5 self-center lg:self-start lg:ml-10">Contact Me</h2>
-      <form className="flex flex-col justify-center items-center" onSubmit={handleFormSubmit}>
+      <form className="flex flex-col self-center lg:self-start lg:ml-10 lg:w-1/2 md:w-7/12" onSubmit={handleFormSubmit}>
         <label htmlFor="name">Name</label>
         <input
           type="text"
           name="name"
           value={input}
           onChange={handleInputChange}
-          className="border-bk border-2 rounded-md p-2"
+          className="border-bk border-2 rounded-md p-2 mb-5 mt-2"
+          autocomplete='off'
         />
         <label htmlFor="email">Email</label>
         <input
@@ -30,14 +31,15 @@ function ContactMe() {
           name="email"
           value={input}
           onChange={handleInputChange}
-          className="border-bk border-2 rounded-md p-2"
+          className="border-bk border-2 rounded-md p-2 mb-5 mt-2"
+          autocomplete='off'
         />
         <label htmlFor="message">Message</label>
         <textarea
           name="message"
           value={input}
           onChange={handleInputChange}
-          className="border-bk border-2 rounded-md p-2"
+          className="border-bk border-2 rounded-md p-2 mb-5 mt-2"
         />
         <button type="submit" className="border-bk border-2 rounded-md p-2">
           Submit

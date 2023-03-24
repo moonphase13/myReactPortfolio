@@ -12,7 +12,7 @@ function Portfolio() {
     name: 'Michael Frayne',
   });
 
-  const [activeSection, setActiveSection] = useState('aboutMe');
+  const [activeSection, setActiveSection] = useState('contactMe');
 
   const handleNavItemClick = (section, event) => {
     event.preventDefault();
