@@ -69,6 +69,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 * What is the Repo link?
   * <a href='https://github.com/moonphase13/myReactPortfolio' target='_blank'>***Repo***</a>
 * What is the Deployed link?
-  * <a href='' target='_blank'>***Deployment***</a>
+  * <a href='https://moonphase13.github.io/myReactPortfolio/' target='_blank'>***Deployment***</a>
 * What is your Github link?
   * <a href='https://github.com/moonphase13' target='_blank'>***Github***</a>
