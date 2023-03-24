@@ -33,7 +33,7 @@ function Resume() {
 
   return (
     <div className="flex flex-col items-center z-0">
-      <h2 className="text-4xl lg:text-5xl text-center font-bold mb-5">Resume</h2>
+      <h2 className="text-4xl lg:text-5xl text-center font-bold mb-5 self-center lg:self-start lg:ml-10">Resume</h2>
       <div className="flex flex-col self-center items-start lg:self-start mx-24">
         <div id='resumeIcon' className='self-center'>
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="192" height="192" viewBox="0,0,256,256" style={style} onClick={downloadResume} className='hover: cursor-pointer'>

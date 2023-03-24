@@ -54,7 +54,7 @@ function Projects () {
 
   return (
     <div className="flex flex-col justify-center items-center z-0">
-      <h2 className="text-4xl lg:text-5xl font-bold mb-5">Projects</h2>
+      <h2 className="text-4xl lg:text-5xl font-bold mb-5 self-center lg:self-start lg:ml-10">Projects</h2>
       <div className="flex flex-row flex-wrap justify-center items-center">
         {projects.map((project) => (
           <div key={project.id} className="projCard relative m-4 w-1/3 text-white group">
