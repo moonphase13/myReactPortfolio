@@ -54,6 +54,7 @@ li {
 .navLiItm a.active {
   color: #7700ff;
   font-weight: bold;
+  text-shadow: 2px 2px 2px #7789ff;
 }
 
 header li,

@@ -57,16 +57,16 @@ function Projects () {
       <h2 className="text-4xl lg:text-5xl font-bold mb-5">Projects</h2>
       <div className="flex flex-row flex-wrap justify-center items-center">
         {projects.map((project) => (
-          <div key={project.id} className="relative m-4 w-1/3 text-white group">
-            <div className='opacity-100 group-hover:opacity-25 transition-opacity duration-500 ease-in-out'>
-              <img src={project.image} alt={project.name} className='border-transparent rounded-lg'/>
+          <div key={project.id} className="projCard relative m-4 w-1/3 text-white group">
+            <div className='opacity-100 group-hover:opacity-25 transition duration-500 ease-in-out'>
+              <img src={project.image} alt={project.name} className='imgCard border-transparent rounded-lg'/>
             </div>
-            <div className="projectText absolute top-0 left-0 px-16 z-10 w-full h-full flex flex-col justify-center items-center group hover:opacity-100 transition-opacity duration-500 ease-in-out">
+            <div className="projectText absolute top-0 left-0 px-16 z-10 w-full h-full flex flex-col justify-center items-center group hover:opacity-100 transition duration-500 ease-in-out">
               <div className='w-full flex flex-row justify-start'>
-                <a href={project.deployedLink} className='col-start-2 col-span-3 self-center opacity-0 group-hover:opacity-25 hover:!opacity-100 transition-opacity duration-500 ease-in-out'target='_blank' rel='noopener noreferrer'>
-                  <h3 className="group-hover/name:opacity-full text-3xl font-bold transition-opacity duration-500 ease-in-out">{project.name}</h3>
+                <a href={project.deployedLink} className='col-start-2 col-span-3 self-center opacity-0 group-hover:opacity-25 hover:!opacity-100 transition duration-500 ease-in-out'target='_blank' rel='noopener noreferrer'>
+                  <h3 className="group-hover/name:opacity-full text-3xl font-bold transition duration-500 ease-in-out">{project.name}</h3>
                 </a>
-                <a href={project.githubLink} className='col-start-5 pl-5 opacity-0 group-hover:opacity-25 hover:!opacity-100 transition-opacity duration-500 ease-in-out' target='_blank' rel='noopener noreferrer'>
+                <a href={project.githubLink} className='col-start-5 pl-5 opacity-0 group-hover:opacity-25 hover:!opacity-100 transition duration-500 ease-in-out' target='_blank' rel='noopener noreferrer'>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"

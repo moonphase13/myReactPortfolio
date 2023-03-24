@@ -1,6 +1,8 @@
 # NOTES
 
-- [ ] **`TODO:`** add shadows to main headers and active nav
+- [x] **`TODO:`** add shadows to main headers and active nav
+- [x] **`TODO:`** add shadows to cards *NOTE:* scrapped this idea
+- [ ] **`TODO:`** `max-width` for nav items set to `min-content`
 - [ ] **`TODO:`** change main headers to `lg:justify-start` and `justify-center`
 - [ ] **`TODO:`** adjust spacing on contactMe section
 - [ ] **`TODO:`** style submit button on contactMe section
