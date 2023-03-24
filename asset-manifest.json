@@ -1,13 +1,13 @@
 {
-  "main.css": "/moonphase13/myReactPortfolio/static/css/main.49ef19a0.chunk.css",
-  "main.js": "/moonphase13/myReactPortfolio/static/js/main.f574ce55.chunk.js",
-  "main.js.map": "/moonphase13/myReactPortfolio/static/js/main.f574ce55.chunk.js.map",
-  "runtime~main.js": "/moonphase13/myReactPortfolio/static/js/runtime~main.e9615082.js",
-  "runtime~main.js.map": "/moonphase13/myReactPortfolio/static/js/runtime~main.e9615082.js.map",
-  "static/js/2.2e4b4ef1.chunk.js": "/moonphase13/myReactPortfolio/static/js/2.2e4b4ef1.chunk.js",
-  "static/js/2.2e4b4ef1.chunk.js.map": "/moonphase13/myReactPortfolio/static/js/2.2e4b4ef1.chunk.js.map",
-  "index.html": "/moonphase13/myReactPortfolio/index.html",
-  "precache-manifest.f6c866a9dd864a8b456dae3384b52fd3.js": "/moonphase13/myReactPortfolio/precache-manifest.f6c866a9dd864a8b456dae3384b52fd3.js",
-  "service-worker.js": "/moonphase13/myReactPortfolio/service-worker.js",
-  "static/css/main.49ef19a0.chunk.css.map": "/moonphase13/myReactPortfolio/static/css/main.49ef19a0.chunk.css.map"
+  "main.css": "/myReactPortfolio/static/css/main.49ef19a0.chunk.css",
+  "main.js": "/myReactPortfolio/static/js/main.f574ce55.chunk.js",
+  "main.js.map": "/myReactPortfolio/static/js/main.f574ce55.chunk.js.map",
+  "runtime~main.js": "/myReactPortfolio/static/js/runtime~main.34b1918c.js",
+  "runtime~main.js.map": "/myReactPortfolio/static/js/runtime~main.34b1918c.js.map",
+  "static/js/2.2e4b4ef1.chunk.js": "/myReactPortfolio/static/js/2.2e4b4ef1.chunk.js",
+  "static/js/2.2e4b4ef1.chunk.js.map": "/myReactPortfolio/static/js/2.2e4b4ef1.chunk.js.map",
+  "index.html": "/myReactPortfolio/index.html",
+  "precache-manifest.af539b98b6553df9210adb5ba24f1c42.js": "/myReactPortfolio/precache-manifest.af539b98b6553df9210adb5ba24f1c42.js",
+  "service-worker.js": "/myReactPortfolio/service-worker.js",
+  "static/css/main.49ef19a0.chunk.css.map": "/myReactPortfolio/static/css/main.49ef19a0.chunk.css.map"
 }
